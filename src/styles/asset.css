@@ -1,0 +1,78 @@
+main {
+  box-shadow: var(--shadow);
+  margin: 5rem;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+}
+
+h1 {
+  background-color: var(--primary);
+  color: var(--background);
+  font-size: 1.25rem;
+  border-radius: 10px 10px 0 0;
+  padding: 0.8rem 0 0.8rem 1.18rem;
+}
+
+h2 {
+  text-align: center;
+  margin: 2.5rem;
+}
+
+.asset-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 1em;
+  padding: 1em;
+}
+
+.asset {
+  max-width: 500px;
+  min-width: 500px;
+  justify-self: center;
+  align-self: baseline;
+  border-radius: 10px;
+  border: 1px solid #f0f0f0;
+  box-shadow: var(--shadow);
+}
+
+.asset-head {
+  background: var(--secondary);
+  color: var(--background);
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  padding: 0.5em 0 0.5em 0;
+}
+
+.asset-content {
+  padding: 1em;
+  font-weight: bold;
+}
+
+.asset-description {
+  padding: 1em;
+}
+
+.asset-expand {
+  width: 25px;
+  height: 25px;
+  margin: 0 1em 0.5em auto;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.drive-embed > iframe {
+  width: 100%;
+  padding: 2em;
+  height: 100%;
+}
+
+.doc {
+  height: 80vh;
+}
+
+.youtube {
+  height: 50vh;
+}
